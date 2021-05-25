@@ -2,5 +2,8 @@ require 'sinatra'
 require './config'
 
 get '/' do
-    'hola mundo'
+    erb:principal
+end
+post "/" do
+    erb:principal
 end
